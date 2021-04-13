@@ -1,6 +1,11 @@
  body {
    font-family: "Sarabun", sans-serif;
  }
+
+ @font-face {
+  font-family: Delicious;
+  src: url('images/Nervous.ttf');
+}
  
  h2 {
    margin-top: 0px; 
