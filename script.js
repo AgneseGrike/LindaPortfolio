@@ -37,7 +37,12 @@ var gallery = [
 function populateGallery (galleryArr) {
     // Removes the previous gallery view if it exists
     if (document.getElementsByClassName("gallery-row").length > 0) {
-        document.getElementsByClassName("gallery-row")[0].remove();
+        // document.getElementsByClassName("gallery-row")[0].remove();
+        //var parent = document.getElementsByClassName("filter-row")[0];
+        var child = document.getElementsByClassName("gallery-row")[0];
+        if (child.parentNode) {
+            child.parentNode.removeChild(child);
+        }
     }
 
     // Gallery Wrapper
