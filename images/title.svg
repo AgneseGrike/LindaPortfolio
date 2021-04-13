@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg enable-background="new 0 0 414 62.8" version="1.1" viewBox="0 0 414 62.8" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
 <style type="text/css">
-	.st0{font-family:'Nervous';}
+	 @font-face {
+  font-family: Delicious;
+  src: url('Nervous.ttf');
+}
+	.st0{font-family:'Delicious';}
 	.st1{font-size:57.2696px;}
 </style>
 <text class="st0 st1" transform="translate(2.0007 59.238)">LINDA VIRBALE</text>

@@ -10,7 +10,23 @@
  h2 {
    margin-top: 0px; 
 }
- 
+
+#logo-label {
+  width: 100%;
+  padding-bottom: 15px;
+  position: relative;
+  top: -9px;
+  z-index: 1;
+}
+
+#logo-label text {
+  font-family: Delicious;
+}
+
+#titleLogo:hover {
+  color: black;
+}
+
  .site-footer {
    width: 500px;
    padding: 35px;
@@ -264,7 +280,7 @@
  
  @media only screen and (max-width: 991px) {
    .text {
-     font-size: 4em;
+     font-size: 2em;
     }
 }
  
