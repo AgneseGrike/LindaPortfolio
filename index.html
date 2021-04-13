@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Linda Virbale</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script type="text/javascript" src="script.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://kit.fontawesome.com/98d38d9c6c.js" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+        <div class="site-head"> 
+        <div class="icon"><a href="index.html">
+            <img src=images/Logo_violets.svg id="logo">	
+            <img src=images/title.svg id="title_logo">
+        </a></div>
+        <div class="row nav-row">
+            <div class="col-md-8 col-sm-12 col-md-offset-2 inner-nav-row">
+                <span class="nav-item gallery"><a href="index.html">Gallery</a></span>
+                
+                <span class="nav-item about"><a href="about.html">About</a></span>
+                
+                <span class="nav-item cv"><a href="cv.html">CV</a></span>          
+            </div>
+        </div>
+        <div class="socials-row">
+            <a href="https://www.instagram.com/lindavart/"><i class="fa fa-instagram fa-lg"></i>  lindavart</a>
+        </div>
+        </div> <!-- site-head -->
+        
+            <div class="container-fluid">
+                <div class="row filter-row">
+                    <div class="col-md-8 col-sm-12 col-md-offset-2 inner-filter-row">
+                        <span id="filter-txt">Filter by:</span>
+                        <div class="dropdown">
+                            <button class="dropbtn">Media <i class="fas fa-angle-down"></i></button>
+                                <div class="dropdown-content">
+                                    <a href="#" onclick="mediaFilter('glass')">Glass</a>
+                                    <a href="#" onclick="mediaFilter('painting')">Painting</a>
+                                    <a href="#" onclick="mediaFilter('photography')">Photography</a>
+                                    <a href="#" onclick="mediaFilter('environmental')">Environmental objects</a>
+                                </div>
+                        </div> <!-- dropdown -->
+                        <div class="dropdown">
+                            <button class="dropbtn">Year <i class="fas fa-angle-down"></i></button>
+                                <div class="dropdown-content">
+                                    <a href="#" onclick="yearFilter(2021)">2021</a>
+                                    <a href="#" onclick="yearFilter(2020)">2020</a>
+                                    <a href="#" onclick="yearFilter(2019)">2019</a>
+                                    <a href="#" onclick="yearFilter(2018)">2018</a>
+                                    <a href="#" onclick="yearFilter(2017)">2017</a>                        
+                                    <a href="#" onclick="yearFilter(2016)">2016</a>
+                                </div>
+                        </div> <!-- dropdown -->  
+                    </div> <!-- inner-filter-row -->
+                </div> <!-- filter-row -->
+
+            <footer>
+                <div class="row">
+                    <div class="site-footer">
+                        <div class="site-map">
+                            <a href="index.html">Gallery</a><br>
+                            <a href="about.html">About</a><br>
+                            <a href="cv.html">CV</a>
+                        </div>
+                    
+                        <div class="links">
+                            Instagram:<br>
+                            <a href="https://www.instagram.com/lindavart/"><i class="fa fa-instagram fa-lg"></i> lindavart</a>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div><!--container-fluid-->
+        <script>
+            populateGallery(gallery);
+            
+        </script>
+    </body>
+</html>

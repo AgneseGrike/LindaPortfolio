@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Linda Virbale</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script type="text/javascript" src="script.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://kit.fontawesome.com/98d38d9c6c.js" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+        <div class="site-head"> 
+        <div class="icon"><a href="index.html">
+            <img src=images/Logo_violets.svg id="logo">	
+            <img src=images/title.svg id="title_logo">
+        </a></div>
+        <div class="row nav-row">
+            <div class="col-md-8 col-sm-12 col-md-offset-2 inner-nav-row">
+                <span class="nav-item gallery"><a href="index.html">Gallery</a></span>
+                
+                <span class="nav-item about"><a href="about.html">About</a></span>
+                
+                <span class="nav-item cv"><a href="cv.html">CV</a></span>          
+            </div>
+        </div>
+        <div class="socials-row">
+            <a href="https://www.instagram.com/lindavart/"><i class="fa fa-instagram fa-lg"></i>  lindavart</a>
+        </div>
+        </div> <!-- site-head -->
+        
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-4 col-sm-6 col-md-offset-2 portrait">
+                    <img src="images/artist.jpg" class="image">
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="title"><h2>About artist</h2></div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                    <div class="title"><h3>Contacts</h3></div>
+                    <p>Instagram: <a href="https://www.instagram.com/lindavart/">lindavart</a></p>
+                    <p class="buttonLine">E-mail: <button class="btn reveal" onclick=revealEmail()>Click!</button><span id="email"></span></p>
+                                    
+                </div>
+            </div><!--row-->
+
+            <footer>
+                <div class="row">
+                    <div class="site-footer">
+                        <div class="site-map">
+                            <a href="index.html">Gallery</a><br>
+                            <a href="about.html">About</a><br>
+                            <a href="cv.html">CV</a>
+                        </div>
+                    
+                        <div class="links">
+                            Instagram:<br>
+                            <a href="https://www.instagram.com/lindavart/"><i class="fa fa-instagram fa-lg"></i> lindavart</a>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div><!--container-fluid-->
+        <script>
+            document.getElementByClass('about').setAttribute("class", "currentPage");
+        </script>
+    </body>
+</html>
